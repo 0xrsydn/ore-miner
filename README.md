@@ -32,7 +32,7 @@ cargo install ore-cli
 
 7. Create a free account with Alchemy (https://alchemy.com) -> Home -> View your API key -> copy the HTTPS URL (will be used as the custom RPC URL). You can use other RPC as well such as Solana Main RPC (https://api.mainnet-beta.solana.com).
 
-8. Add oreminer.sh script on an easily accessible folder (e.g.: Desktop).
+8. Add https://oreminer.sh script on an easily accessible folder (e.g.: Desktop).
 
 9. Go to the folder containing http://oreminer.sh and make sure it is executable as a program:
 ```
