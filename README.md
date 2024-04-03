@@ -30,20 +30,9 @@ solana-keygen pubkey
 cargo install ore-cli
 ```
 
-7. Create a free account with Alchemy (https://alchemy.com) -> Home -> View your API key -> copy the HTTPS URL (will be used as the custom RPC URL)
-from alchemy.com
+7. Create a free account with Alchemy (https://alchemy.com) -> Home -> View your API key -> copy the HTTPS URL (will be used as the custom RPC URL). You can use other RPC as well such as Solana Main RPC (https://api.mainnet-beta.solana.com).
 
-8. Create a textfile "http://oreminer.sh" on an easily accessible folder (e.g.: Desktop) and add the following content in this file:
-```
-#!/bin/bash
-
-while true
-do
-  echo "Running"
-  ore --rpc <ALCHEMY_RPC_FROM_STEP_7> --keypair ~/.config/solana/id.json --priority-fee 10 mine --threads 4
-  echo "Exited"
-done
-```
+8. Add oreminer.sh script on an easily accessible folder (e.g.: Desktop).
 
 9. Go to the folder containing http://oreminer.sh and make sure it is executable as a program:
 ```
