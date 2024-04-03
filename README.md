@@ -1,5 +1,10 @@
 # Ore Mining Script
 
+0. Create new folder with command below before installing Rust. In this case, we use GitPod:
+```
+mkdir -p /home/gitpod/.config/fish/conf.d/
+```
+
 1. Install Rust and cargo:
 ```
 curl https://sh.rustup.rs -sSf | sh
