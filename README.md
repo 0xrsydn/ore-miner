@@ -10,9 +10,11 @@ mkdir -p /home/gitpod/.config/fish/conf.d/
 curl https://sh.rustup.rs -sSf | sh
 ```
 
-2. Install Solana CLI:
+2. Install Solana CLI, then export PATH to verify your Solana CLI:
 ```
 sh -c "$(curl -sSfL https://release.solana.com/v1.18.4/install)"
+
+export PATH="/home/gitpod/.local/share/solana/install/active_release/bin:$PATH"
 ```
 
 3. Create a new solana wallet:
@@ -37,11 +39,11 @@ cargo install ore-cli
 
 7. Create a free account with Alchemy (https://alchemy.com) -> Home -> View your API key -> copy the HTTPS URL (will be used as the custom RPC URL). You can use other RPC as well such as Solana Main RPC (https://api.mainnet-beta.solana.com).
 
-8. Add https://oreminer.sh script on an easily accessible folder (e.g.: Desktop).
+8. Add https://oreminer.sh script on an easily accessible folder (e.g.: oreminer).
 
 9. Go to the folder containing http://oreminer.sh and make sure it is executable as a program:
 ```
-cd Desktop
+cd oreminer
 
 then
 
