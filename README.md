@@ -94,6 +94,7 @@ Stay in that folder and execute oreminer.sh and watch your machine mine ORE for 
 ### 11. Additional information
 You can checkout other bash scripts such as claimbalance.sh for claim $ORE, unclaimedbalance.sh for checking unclaimed balance, and checkore.sh to check your $ORE balance. 
 
+
 ## Acknowledgements
 
 Big thanks for [@fear-rush](https://github.com/fear-rush) for insight and optimization for running the mining script. Also thanks for [Little Things](https://t.me/yourlittlething) and its member for great alpha!
