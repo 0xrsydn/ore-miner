@@ -91,20 +91,8 @@ Stay in that folder and execute oreminer.sh and watch your machine mine ORE for 
 ./oreminer.sh
 ```
 
-### 11. Useful tip #1 
-Check unclaimed rewards:
-```
-ore --keypair ~/.config/solana/id.json rewards
-```
-### 12. Useful tip #2 
-Claim rewards and check total balance:
-```
-ore --keypair ~/.config/solana/id.json --rpc <your_rpc_url> claim
-
-then
-
-ore --keypair ~/.config/solana/id.json balance
-```
+### 11. Additional information
+You can checkout other bash scripts such as claimbalance.sh for claim $ORE, unclaimedbalance.sh for checking unclaimed balance, and checkore.sh to check your $ORE balance. 
 
 ## Acknowledgements
 
