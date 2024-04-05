@@ -73,7 +73,7 @@ You can use different Solana RPC endpoints such as Alchemy, Helius, or Solana Ma
 - [Ironforge](https://ore.supply/settings)
 
 ### 8. Configure The Script
-Add https://oreminer.sh script on an easily accessible folder (e.g.: oreminer). After that you can configure and modify the script (oreminer.sh) such as adding rpc endpoints, adding public key path, configure cpu threads, etc. You could also create a lot of oreminer bash scripts with different rpc endpoints and configurations.
+Add oreminer.sh script on an easily accessible folder (e.g.: oreminer). After that you can configure and modify the script (oreminer.sh) such as adding rpc endpoints, adding public key path, configure cpu threads, etc. You could also create a lot of oreminer bash scripts with different rpc endpoints and configurations.
 
 ### 9. Script Setup
 Go to the folder containing http://oreminer.sh and make sure it is executable as a program:
