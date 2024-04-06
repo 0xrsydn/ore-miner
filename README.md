@@ -4,7 +4,7 @@ This repository is made for $ORE mining purpose on CLI with bash script. $ORE is
 
 ## How to Start
 
-Here is step by step how to mine $ORE in your computer using terminal (either powershell or WSL terminal it's up to you) or using termux on your phone.
+Here is step by step how to mine $ORE in your computer using terminal (either powershell or WSL terminal it's up to you) or using termux on your phone. You can also run this on cloud-hosted service such as VPS, but make sure your VPS is allowed to do cryptocurrency mining activity.
 
 ### 0. Make folder first
 Use command below before installing Rust if you use cloud-hosted environment. If you are using local environment, you can skip this part.
@@ -72,17 +72,17 @@ You can use different Solana RPC endpoints such as Alchemy, Helius, or Solana Ma
 - [EXTR](https://extrnode.com/solana/)
 - [Ironforge](https://ore.supply/settings)
 
-### 8. Configure The Script
-Add oreminer.sh script on an easily accessible folder (e.g.: oreminer). After that you can configure and modify the script (oreminer.sh) such as adding rpc endpoints, adding public key path, configure cpu threads, etc. You could also create a lot of oreminer bash scripts with different rpc endpoints and configurations.
-
-### 9. Script Setup
-Go to the folder containing http://oreminer.sh and make sure it is executable as a program:
+### 8. Clone My Repo
+Clone my github repo and go the repo folder
 ```
-cd oreminer
+git clone https://github.com/0xrsydn/ore-miner.git
+cd ore-miner
+```
 
-then
-
-chmod +x oreminer.sh
+### 9. Configure The Script
+You should configure and modify the script (oreminer.sh) first such as adding rpc endpoints, adding public key path, configure cpu threads, etc. You could also create a lot of oreminer bash scripts with different rpc endpoints and configurations. After finishing your configuration, make the script executable:
+```
+chmod +x oreminer.sh claimbalance.sh unclaimedbalance.sh
 ```
 
 ### 10. Run The Script
