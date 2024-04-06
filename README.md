@@ -1,5 +1,10 @@
 # Ore Miner
 
+<p align="center">
+  <img src="img/Screenshot_23.png" alt="ore">
+  <img src="img/dog-destroy.gif"
+</p>
+
 This repository is made for $ORE mining purpose on CLI with bash script. $ORE is a mineable token on  Solana blockchain that uses a novel proof-of-work algorithm to guarantee casual miners can never be starved out from earning rewards. You can mine it using your computer or through your phone (anywhere). You can checkout more about token explanation in their [X](https://twitter.com/OreSupply/status/1775176540340547818) and [website](https://ore.supply/).
 
 ## How to Start
