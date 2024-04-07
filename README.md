@@ -104,3 +104,7 @@ You can checkout other bash scripts such as claimbalance.sh for claim $ORE, uncl
 
 Big thanks for [@fear-rush](https://github.com/fear-rush) for insight and optimization for running the mining script. Also thanks for [Little Things](https://t.me/yourlittlething) and its member for great alpha!
 
+## Contribution
+
+Feel free to contribute to the ore-miner script or build on top of it to make it more efficient, run smoothly, or resolve any issues.
+
