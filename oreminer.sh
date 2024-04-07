@@ -14,7 +14,7 @@ KEY=${2:-$DEFAULT_KEY}
 FEE=${3:-$DEFAULT_FEE}
 THREADS=${4:-$DEFAULT_THREADS}
 
-COMMAND="./target/release/ore --rpc ${RPC_URL} --keypair ${KEY} --priority-fee ${FEE} mine --threads ${THREADS}"
+COMMAND="ore --rpc ${RPC_URL} --keypair ${KEY} --priority-fee ${FEE} mine --threads ${THREADS}"
 
 while true; do
   echo "Starting the process..."
